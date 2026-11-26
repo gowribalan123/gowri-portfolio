@@ -17,25 +17,25 @@ const projects = [
     number: '01', name: 'MTravelo CRM', type: 'Customer Relationship Management',
     description: 'CRM workflows for lead management, customer information, follow-ups, bookings, payments and approvals. Also includes travel-service modules for flights, hotels, holiday packages, visa, passport, insurance, transport, activities and cruise services.',
     stack: ['React.js', 'TypeScript', 'ASP.NET Core', 'C#', 'SQL Server'],
-    tag: 'Independently handled', visual: 'crm', screenshot: '/images/mtravelo-crm.png'
+    tag: 'Independently handled', visual: 'crm', screenshot: `${import.meta.env.BASE_URL}images/mtravelo-crm.png`
   },
   {
     number: '02', name: 'MTravelo Tours & Travels', type: 'Travel & Tour Package Management',
     description: 'Travel and tour package features, custom tours, booking enquiries, blogs and administration modules, connected with REST APIs and SQL Server to support travel booking workflows.',
     stack: ['React.js', 'ASP.NET Core', 'C#', 'SQL Server'],
-    tag: 'Independently handled', visual: 'travel', screenshot: '/images/mtravelo.png'
+    tag: 'Independently handled', visual: 'travel', screenshot: `${import.meta.env.BASE_URL}images/mtravelo.png`
   },
   {
     number: '03', name: 'AyurCare (AyurNidan)', type: 'Ayurvedic Diagnostic & Hospital Management',
     description: 'Contributed to an admin dashboard for patient management, case analysis, treatments, medicines and reporting as part of a collaborative development effort. Worked on API integration, authentication, role-based authorization and SQL Server data access.',
     stack: ['React.js', 'ASP.NET Core', 'C#', 'Entity Framework Core', 'SQL Server'],
-    tag: 'Collaborative project', visual: 'health', screenshot: '/images/ayurcare.png'
+    tag: 'Collaborative project', visual: 'health', screenshot: `${import.meta.env.BASE_URL}images/ayurcare.png`
   },
   {
     number: '04', name: 'Thumbee', type: 'E-Commerce Platform',
     description: 'Product, shopping-cart, order-processing and customer-management features, along with administration modules for inventory, products, orders and reporting.',
     stack: ['React.js', 'Material UI', 'ASP.NET Core', 'C#', 'SQL Server'],
-    tag: 'Independently handled', visual: 'commerce', screenshot: '/images/thumbee.png'
+    tag: 'Independently handled', visual: 'commerce', screenshot: `${import.meta.env.BASE_URL}images/thumbee.png`
   },
 ]
 
